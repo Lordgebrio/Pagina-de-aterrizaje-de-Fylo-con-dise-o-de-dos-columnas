@@ -1,0 +1,33 @@
+/* ---- Variables de colores ---- */
+:root {
+  /* ---- Primario ---- */
+  --Azul-muy-oscuro: #060439;
+  --Azul-desaturado: #585888;
+  /* ---- Acento ---- */
+  --Azul-brillante: #3066f7;
+  --Cian-moderado: #3c9f8f;
+  /* ---- Neutral ---- */
+  --Azul-grisáceo-claro: #f6f6fe;
+  --Gris-claro: #bfbfbf;
+}
+
+/* ---- Fuentes ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif;  400, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; 400*/
+
+/* Estilos globales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de Header */
+.header {
+  padding: 3.125rem;
+  display: flex;
+}
