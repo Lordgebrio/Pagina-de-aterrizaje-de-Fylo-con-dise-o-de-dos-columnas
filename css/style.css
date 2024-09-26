@@ -26,8 +26,85 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
 /* Estilos de Header */
 .header {
   padding: 3.125rem;
   display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list li {
+  display: inline-block;
+  margin-left: 1.875rem;
+}
+
+.nav__list li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: var(--Azul-muy-oscuro);
+}
+
+.nav__list li  a:hover {
+  color: var(--Azul-brillante);
+  text-decoration: underline;
+  transition: .5s;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.initial {
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.initial .initial__text{
+  width: 50%;
+  display: inline-block;
+  /* flex-direction: column;
+  justify-content: center; */
+  margin-right: 50px;
+}
+
+.initial .initial__text h2{
+  font-size: 3.5rem;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.initial .initial__text p{
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.initial .initial__text input, button {
+  width: 40%;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.initial .initial__img{
+  width: 50%;
+}
+
+.initial .initial__img img{
+  width: 100%;
 }
