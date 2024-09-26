@@ -94,11 +94,24 @@ h2{
   margin-bottom: 20px;
 }
 
-.initial .initial__text input, button {
+.initial .initial__text input {
   width: 40%;
   margin: 0 10px;
   display: inline-block;
   padding: 10px;
+  cursor: pointer;
+  color: var(--Gris-claro);
+}
+
+.initial .initial__text button {
+  width: 30%;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px;
+  background-color: var(--Azul-brillante);
+  color: var(--Azul-grisáceo-claro);
+  border-style: none;
+  cursor: pointer;
 }
 
 .initial .initial__img{
